@@ -1,0 +1,104 @@
+.header{
+  
+    width: 100%;
+    height:500px;
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.image6{
+    
+    width: 10%;
+    height: 30%;
+    padding-top: 90px;
+}
+#slider{
+    position:relative; 
+    margin-top: 0%; 
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(16, 26, 122);
+    font-size: 40px;
+}
+.slogan{
+    text-align: center;
+    position:relative;
+    margin-top: 0%;
+    font-size: 40px;
+}
+.title b{
+    color: blue;
+}
+
+.body{
+    padding:1%;
+    width: 100%;
+    height: 500px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+}
+#body1 .content1{
+    font-weight: bolder;
+    font-size: 200%;
+    margin-top: 0%;
+    margin-left: 3%;
+}
+#body1 .content2{
+    font-size: 150%;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-rignt: 10%;
+}
+.cards{
+    display: flex;
+    /* align-items: stretch; */
+    flex-wrap: wrap;
+    margin-top: 0.5cm;
+    /* width: 100%;
+    font-size: 80%;
+    padding-left: 10%;
+    padding-right: 10%;   */
+}
+.card{
+    overflow: hidden;
+    margin-top: 0.5cm;
+    padding: 8px;
+    width: 50%;
+    float: left;
+}
+.card-image{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+.card-content{
+    padding-top: 2%;
+    text-align: left;
+}
+.footer{
+    position:-ms-page;
+    padding-top: 10px;
+    
+    width: 100%;
+    height: 100px;
+    /* text-align: left; */
+    background-color: rgb(104, 207, 130);
+}
+.footer .content-footer{
+    width: 50%;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+.footer .icon{
+    width: 50%;
+    float: right;
+    text-align: end;
+    line-height: 100px;
+    padding-right: 10%;
+}
