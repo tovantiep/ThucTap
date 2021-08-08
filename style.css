@@ -81,6 +81,7 @@ body{padding: 1%;}
 #content .card{
     text-align: center;
     background-color: beige;
+    box-shadow: rgba(100, 100, 111, 0.2) 5px 7px 12px 7px;
 }
 #content .card-img{
     height: 200px;
