@@ -55,7 +55,7 @@
 
 body{padding: 1%;}
 
-#content .cards{
+/* #content .cards{
     display: flex;
     flex-wrap: wrap;
     padding: 5%;
@@ -71,6 +71,16 @@ body{padding: 1%;}
     width: 32.3%;
     margin-left: 1%;
     overflow-y: auto;
+} */
+#content .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+    padding-bottom: 5%;
+}
+#content .card{
+    text-align: center;
+    background-color: beige;
 }
 #content .card-img{
     height: 200px;
